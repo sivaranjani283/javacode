@@ -1,0 +1,36 @@
+package System;
+
+public class Maximum
+{
+	public static void main(String []args)
+	{
+		int M1=99;int M2=100; int M3=70; int M4=76; int M5=98; int M6=95;
+		String Display=" ";
+		if(M1>M2 && M1>M3 && M1>M4 && M1>M5 && M1>M6)
+		{
+			Display= "M1 is Max";
+		}
+		else if(M2>M3 && M2>M4 && M2>M5 && M2>M6)
+		{
+			Display = "M2 is Max";
+		}
+		else if(M3>M4 && M3>M5 && M3>M6)
+		{
+			Display = "M3 is Max";
+		}
+		else if (M4>M5 && M4>M6)
+		{
+			Display = "M4 is Max";
+		}
+		else if(M5>M6)
+		{
+			Display = "M5 is Max";
+		}
+		else
+		{
+			Display = "M6 is Max";
+		}
+		System.out.println("Result" + Display);
+	}
+
+}
