@@ -1,0 +1,29 @@
+package System;
+
+public class App4 
+{
+	public static void main(String []args)
+	{
+		if(false)
+		{
+			System.out.println("if is execute");
+		}
+		else if(false)
+		{
+			System.out.println("Else if 1  is execute");
+		}
+		else if(false)
+		{
+			System.out.println("Else if 2 is execute");
+		}
+		else if(false)
+		{
+			System.out.println("Else if 3 is execute");
+		}
+		else
+		{
+			System.out.println("Else is execute");
+		}
+	}
+
+}
