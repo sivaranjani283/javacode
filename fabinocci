@@ -1,0 +1,18 @@
+package System;
+
+public class fibinocci {
+	public static void main(String []args)
+	{
+		int fn=0;
+		int sn=1; 
+		int add=0;
+		for(int i=0; i<20; i++)
+		{
+			add=fn+sn;
+			System.out.println("fabinocci:"+add);                                                                                                                                                          
+			fn=sn;  
+			sn=add;
+		}
+	}
+
+}
